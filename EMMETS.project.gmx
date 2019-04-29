@@ -1119,7 +1119,7 @@
     <room>rooms\room10</room>
   </rooms>
   <constants number="238">
-    <constant name="VERSION">152</constant>
+    <constant name="VERSION">153</constant>
     <constant name="DEMO_TIMEOUT">300</constant>
     <constant name="DEBUG">0</constant>
     <constant name="DEBUG_MAPS">0</constant>
