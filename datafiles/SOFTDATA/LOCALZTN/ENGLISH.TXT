@@ -1,0 +1,583 @@
+﻿[MEMORIES]
+history=History
+KIA=Lost emmets
+emptyHistory=The history is empty.
+noLostEmmets=You've never lost a crew member.
+was=was
+yearsOld=y/o at the time
+
+[MARKERS]
+welcome=Welcome to Emmets!##Since this is your first game, a few messages will be guiding you through learning the basics.##Emmets is a rogue-like MANAGEMENT game where the goal is to make a SUCCESSFUL MINING COMPANY.#To achieve this goal, you will have to :#- EXPLORE caves to find valuable minerals and resources#- SELL the resources on the market and compete against other companies##The game is connected to RackNet's server, and every other company you'll meet (and even some emmets!) originates from other players.##First things first, let's create your company.
+quickstart=TUTORIAL##You start every exploration with a predeployed BATTERY. This battery can supply power to other buildings, which is essential. You're also going to need the following buildings :#- An UPLINKER to call emmets#- A REFINERY to convert raw materials into usable resources#- A SENDER to send refined resources to the station##You ALREADY HAVE those three buildings in stock. You can deploy them on the map by using the bottom left corner BUILD MENU.##Note : Be sure to CONNECT the buildings to the battery by putting them in contact.
+emmets=TUTORIAL##Emmets are polyvalent units, able to drill walls, clear rubble and build pathways.#To put your emmets to work, you must give them OBJECTIVES. To create objectives, you can :#- Select a WALL and MARK IT TO DRILL.#- Select RUBBLE and MARK IT TO CLEAR##As soon as a marker is created, an emmet will automatically assign themself the task and do it.##You can also select any emmet manually by clicking on them, or by drawing a SELECTION RECTANGLE with your mouse around them.
+oxygen=TUTORIAL##Your oxygen is very low.#It is time to exit the cave.##You can EXIT THE CAVE at any moment, by pressing the TOP RIGHT CORNER BUTTON on your screen.#Exiting the cave will SAFELY RECALL YOUR CREW MEMBERS, but any DEPLOYED BUILDING will be LOST.
+stock=TUTORIAL##This is the MANAGE STOCKS screen.#Here, you can view and manage your stocked resources and buildings. This window also serves as a recap of everything you gathered during your exploration.#- Construction resources, like FUEL, METAL or JUNK are UNVALUABLE and will be lost in exchange of a small bonus.#- Other resources are VALUABLES and will be shown on this screen. Those are the resources you can sell on the market to make PROFIT.##If you stock too many resources or buildings, your STATION STORAGE CAPACITY will be OVERLOADED and you will have to waste resources to continue.#Station storage can be enhanced by UPGRADING THE STATION later on.##Once you've reviewed your stocks, you can continue.
+sell=TUTORIAL##Welcome to EmmetsUnited - the marketplace.#The main point of this screen is to SELL VALUABLE RESOURCES at the highest possible price to make PROFIT. You can either sell everything now, or keep resources in stock and wait for the prices to go up.##From this screen, you can also see how other companies are doing, buy trainings for your emmets or buildings for your future explorations.
+
+[SURROUNDINGS]
+ownedBy=Owned by %s
+
+[OPTIONS]
+title=Options
+edit=Edit...
+showHumor=Show the current emmet task
+borderScroll=Border scrolling
+lang=Language
+mouseSensitivity=Cursor sensitivity
+enableHotkeys=Enable hotkeys
+displayHotkeys=Display the hotkeys
+sfxVolume=Sound FX volume
+bgsVolume=Background sound volume
+bgmVolume=Music volume
+colorShader=Restricted colors mode
+fullScreen=Full screen
+disableGeoping=Disable geologist ping SFX
+cursorScale=Enlarge cursor
+priorities=Emmet priorities
+playerRename=Name/Token
+ctrlToPaste=(Press CTRL to paste your RackNet token)
+
+[PRIORITIES]
+title=Priorities
+notice=Select in which order the emmets will treat the marked tasks
+0=Build
+1=Gather
+2=Drill
+3=Clear rubble
+4=Dynamite
+5=Refine
+
+[LIQUIDATION]
+niceRun=That was a nice run! EmmetsUnited thanks you for your contribution, and wishes you the best of luck for your next try.##Here are a few statistics we gathered just for you :
+
+[STATISTICS]
+maxDepth=Lowest depth reached
+maxCrew=Highest crew size
+maxCapital=Highest capital
+moneyEarned=Total earned money
+stationLevelReached=Station level
+emmetsLost=Emmets lost
+emmetsBought=Emmets bought
+emmetsTrained=Emmets trained
+buildingsBought=Buildings bought
+moneySpentOnBuildings=Money spent on buildings
+moneySpentOnTrainings=Money spent on trainings
+moneySpentOnUpgrades=Money spent on upgrades
+moneySpentOnHealing=Money spent on healing emmets
+moneySpentOnNaming=Money spent on renaming emmets
+moneySpent=Total money spent
+iceWorlds=Ice worlds visited
+lavaWorlds=Lava world visited
+dirtWorlds=Rock worlds visited
+wallsDrilled=Walls drilled
+wallsDynamited=Walls dynamited
+pathwaysBuilt=Pathways built
+gravelCleared=Rubble cells cleared
+buildingsProduced=Buildings produced
+buildingsLost=Buildings lost
+materialsRefined=Total materials refined
+cavesExplored=Caves explored
+
+[NEWS]
+4.0.title=$LEADER_COMPANY leads the way!
+4.0=This is an historical moment for EmmetsUnited! $LEADER_COMPANY, owned by $LEADER_OWNER, propelled itself up in the rating - just above $FORMER_COMPANY, the previous top-class company!#Whatever $FORMER_OWNER is doing : it's time to wake up! $LEADER_OWNER is rocking the place now!
+1.0.title=$COMPANY just opened its doors!
+1.0=And it's recruiting! The CEO, $OWNER, declared this morning what would become the motto of their glorious enterprise: "$MOTTO". Truer words were never spoken!#We wish good luck and fortune to $COMPANY.
+2.0.title=$COMPANY has been liquidated
+2.0=Today is a day of mourning. $OWNER, unable to pay their company's enormous debt, was forced to sell it at the lowest possible price during a recession.#May $OWNER's next enterprise be more fortunate!
+3.0.title="$RSC"!, shout people in the streets
+3.0=A $RSC shortage caused the prices to rise beyond measure : the value of 10kg of $RSC is now estimated around $PRICE, according to the experts!#The first company to grab a handful of $RSC will be richer than ever!
+
+[WARNING]
+insufficientPower=Insufficient power to supply all buildings
+electroMagnetWarning=EMP disabled the following building: %s
+oxygen=Oxygen pressure is low! Recall your emmets immediatly
+
+[SELECTION]
+2=Dirt
+4=Rubble
+6=NRG Pathway
+5=Wall
+5.1=Dirt
+5.3=Rocks
+
+[TOMBSTONE]
+tombOf=Tombstone of
+
+[BIOGRAPHY]
+nativeTo=Native to
+age=Age
+
+[PREMISSION]
+missionCost=Mission cost prevision
+inStock=IN STOCK
+riskPrime=Risk prime (x%s)
+coring=Coring price
+finalFunding=Funds remaining after mission
+total=TOTAL
+letsgo=Let's go!
+
+[MOTTOS]
+0=You know what? Fuck it
+1=Please let me be
+2=Get that camera off my face!
+3=Alea jacta est
+4=Now bring me a cheeseburger
+5=Chase the vision, not the money.
+6=Any time is the right time to start a company
+7=Ideas are easy. Implementation is hard.
+8=If you're going through hell: keep going!
+default=I have nothing to say
+
+[EMMET_TRAIT]
+0=Nothing in particular
+1=Likes chocolate
+2=Unlucky
+3=Allergic to fish
+4=Former florist
+5=Bottle caps collector
+6=Dr Who fan
+7=Likes jazz
+8=Has a fear of the dark
+9=Fan of Nas
+10=Freestyle champion
+11=Ice cream dealer
+12=Cosplayer
+13=Hypnotizer
+14=Likes pottery
+15=Tax frauder
+16=Occultist
+17=Illusionist
+18=Lazy
+19=Lunatic
+20=Hates vegetables
+21=Bookworm
+22=Likes psychedelic rock
+23=Likes rocks and dirt
+24=Wears fishnet tights
+25=Wears a dress under the mining equipment
+26=Vegan
+27=Sore loser
+28=Fortnite fan
+29=Used to be the boss of this game
+30=Plays Armagetron Advanced
+31=Megadrive stealer
+32=Gambling addict
+33=Former Rock Raider
+34=Won the Unreal Tournament once
+35=Won the Unreal Tournament twice
+36=Hates syringes
+37=Knows what happens to bad emmets
+38=Opera singer
+39=Linkin Park fan
+40=Fly killer
+41=Magnetizer
+42=Cursed poet
+43=On an internship
+44=Sings in the shower
+45=Imitates bird songs
+46=Last of their kind
+47=Collects can openers
+48=Can fold origamis
+49=Former pope
+50=Scorpio with balance ascendant
+51=Repented criminal
+52=Former goalkeeper
+53=Contemporary artist
+54=Guitar player
+55=Piano player
+56=Bass player
+57=Writer
+58=RackNet Games(c) supporter
+59=Has a secret
+60=Likes being explained stuff
+61=Rolist
+62=Likes makeup
+63=Communist
+64=A bit weird
+65=Movie enthusiast
+66=Has seen three hundred movies
+67=Amateur mangaka
+68=Movie star
+69=Likes gothic stuff
+70=Hacker
+71=A little violent
+72=Plays Supreme Commander
+73=Can read Dzongkha
+74=Cameo fan
+75=Seal fan
+76=Not like the other emmets
+77=Former physiotherapist
+78=EmmetsUnited's webmaster
+79=Soul singer
+80=Secretly in love
+81=Conceals a great power
+82=Lost their parents
+83=Knows the truth
+
+[EMMET_ORIGIN]
+0=Been here since the beginning.
+1=Acquired on %s.
+2=Found on %s.
+3=Acquired online.
+
+[EMMET_TRAINING]
+10000=Explosives expert
+10003=Engineer
+10001=Pilot
+10002=Geologist
+
+[EMMET_EQUIPMENT]
+0=Portable drilling device
+1=Geologist toolkit
+2=Laser blaster
+3=Shovel
+4=Repair tool
+
+[EMMET_BIRTHPLACE]
+0=Earth
+1=Ouros
+2=Atania
+3=Sethis
+4=Atliens
+5=Hypérion
+6=Hypogée
+7=Zéro
+8=Heaven's Reach
+9=Contrast
+10=Mineos
+11=Aven
+12=Gadenia
+13=Etenalp
+14=Alternia
+15=Beforus
+16=Taurus
+17=Zephe
+18=New Heaven
+19=Kyojin
+20=AGR-01
+21=Keiryu
+22=Okroa
+23=Bleeze
+24=Dooh
+25=Verbesix-9
+26=Allain
+27=Antheros
+28=Hagro
+29=the Wasteland
+30=Stormland
+31=LV-624
+32=Azareth
+33=Millané
+34=the Frontier
+35=Asteroid 234
+36=Cassiopée
+37=Taatos
+38=Ouranstar
+39=Zyre
+
+[1000]
+0=Large cave
+1=Resources rich
+2=Soft rock
+3=Rich veins
+4=Air seal
+5=Presence of water
+
+[1001]
+0=Oxygen depletion
+1=Presence of lava
+2=Small cave
+3=Hardened rock
+4=Poor minerals
+5=Few resources
+6=Electro-magnetic variations
+
+[5]
+object_building_stocker=Sender
+object_building_uplinker=Uplinker
+object_building_refinery=Refiner
+object_building_predeployed_battery=One-shot battery
+object_building_powerplant=Power station
+object_building_stabilizer=Condenser
+
+[POWER]
+1=POWER OK
+0=NO POWER
+-1=POWERED OFF
+BATTERY=DRAINING
+
+[ITEM_TIP]
+1=Teleport Emmet
+2=Produce or build
+3=Drop held object
+4=Recall Emmet
+5=Mark for pathway building
+6=Mark for clearing
+7=Mark for drilling
+8=Power on/off
+10=Recall building
+15=Destroy pathway
+18=Mark for dynamiting
+21=Destroy building
+22=Cancel construction
+power=The building needs power and to be turned on
+powerSwitch=The building needs to be turned on
+dynamite=You need a deployed Explosive expert and a powered Sender building
+emmets=You need deployed emmets
+maxYards=Too many unfinished pathways already
+nothingToDrop=Nothing to drop
+emptyCrew=All crew members are currently deployed
+
+[CAVE_TIP]
+1000.0=This cave is larger than usual
+1000.1=The walls holds more resources
+1000.2=This cave has less Rock walls
+1000.3=This cave has more different veins
+1000.4=This cave retains the oxygen for a longer time
+1000.5=Some areas are filled with water, crossed by dirt bridges
+
+1001.0=This cave poorly retains oxygen
+1001.1=Some areas are filled with lava
+1001.2=This cave is smaller than usual
+1001.3=This cave will need dynamite to go through 
+1001.4=This cave has less veins
+1001.5=The walls hold less resources
+1001.6=Your buildings will suffer from EMP waves
+
+planet=Planet
+changePlanet=Relocate station
+
+[RELOCATION]
+relocate=Relocating the station will reset the drilling depth and move the station to another planet. The game will be saved once the operation is complete.
+relocationPrime=Resettlement allowance x%s
+price=Drilling license renewal
+relocationCost=Relocation price
+loadingTip1=Packing up...
+loadingTip2=Strapping down emmets...
+loadingTip3=Loading vehicles...
+endTip=Unpacking the furnitures..
+hoverTip=Relocate the station on another planet#This will reset the drilling depth
+disabledHoverTip=You cannot relocate the station yet
+
+[UI_TIP]
+object_exitcave=Exit the cave and return to station
+fancy=Valuable resources
+oxygen=Oxygen pressurization#Emmets will suffer of too low oxygen pressurization
+
+[BUILDING_TIP]
+object_building_uplinker=Used to call emmets from the surface.
+object_building_stocker=Sends refined resources to the station. 
+object_building_refinery=Refines raw materials directly on-field.
+object_building_predeployed_battery=Provides power to 4 buildings at most.
+object_building_powerplant=Supplies multiple buildings in power.
+object_building_stabilizer=Reduces oxygen loss in the cave.#Needs water.
+
+[GENERAL_TIP]
+BUILD=RIGHT CLICK to make#LEFT CLICK to place
+
+[TRAINING_TIP]
+10000=Explosives experts can set up dynamite to destroy hard rock
+10003=Engineers can repair damaged buildings
+10001=Pilot
+10002=Geologists can identify precious minerals through walls
+
+[HEADBAND_BUTTONS]
+help=Help
+options=Options
+menu=Menu
+
+[RSC]
+fuel=Fuel
+metal=Metal
+junk=Junk
+adiamond=Adamante
+palladine=Palladine
+gauld=Unoptine
+kebelt=Kebelt
+terranniuxe=Terraniuxe
+copperine=Copperine
+silverade=Naderinium
+oxygenite=Light sulfur
+sulfur=Heavy sulfur
+platene=Rhoderinium
+
+[GENERAL_UI]
+ok=OK
+cave=Cave
+confirm=Confirm
+cancel=Cancel
+connection=Connection
+connecting=Connecting...
+emmetsUnited=Emmets United
+disconnect=Disconnect
+next=Next
+back=Back
+loading=Loading
+notice=Notice
+serverInfo=Server notice
+visualKeyboard=Visual keyboard
+xPad=You've plugged in a X360 or compatible gamepad. Emmets can be played with nothing but the gamepad, using the folowing control scheme:##- Left stick: Move the cursor#- DPad: Move the camera / Scroll texts#- [A]: Select#- [B]: Give a move order / Erase character#- [X]: Center the cursor on screen#- [SELECT]: Virtual keyboard#- Left shoulder button: Keyboard CAPS
+banned=You have been banned from the Emmets Service.#Contact rackover@racknet.noip.me for more informations.##Switching to offline mode.
+obsoleteVersion=Your version is obsolete.#Expected version: %s#Your version: %s##Download a more recent version at emmets.servehttp.com#Switching to offline mode.
+warning=WARNING
+help=Welcome to Emmets - Version %s#The game is paused until you close this window.##= HOW TO PLAY =#The game is played using the mouse.#Use your LEFT BUTTON to SELECT walls, buildings, groundcells or emmets.#Use your RIGHT BUTTON with a selected emmet to make them MOVE, DRILL or CLEAR gravel.#Hold the MIDDLE BUTTON of your mouse to MOVE THE CAMERA.##= OBJECTIVES =#Your goal is to find and stock a maximum amount of PRECIOUS MINERALS.#Those minerals can be found by DRILLING WALLS.#When you estimate you've found enough, you can end the mission by pressing the exit button on the TOP RIGHT CORNER of the screen.##= DANGERS =#You have a LIMITED amount of OXYGEN. The oxygen is shown at the TOP of the screen. 0% oxygen or less will HURT YOUR EMMETS.#Lost emmets CANNOT BE RECOVERED. If an emmet is in danger, you must RECALL them to avoid losing any.##= BUILDINGS =#You need an UPLINKER to teleport emmets into the cave#You need a REFINERY to convert rough minerals to usable minerals#You need a SENDER to send refined minerals to the station#You need a power source to make any of those building works. The buildings must be connected using PATHWAYS to stay powered.#You start the mission with an Uplinker, a Refinery, a Sender and a predeployed BATTERY. #The starting battery can only supply UP TO 4 BUILDINGS in power. Without energy, the other buildings are useless.#You can PRODUCE BUILDINGS using the BUILD MENU on the bottom left corner of the screen.#If you find yourself in a situation where you can no longer extract minerals, you must EXIT THE CAVE and terminate the mission.##= WALLS =#Three type of walls exist :#- Dirt walls can be drilled by any emmet#- Rock walls that can be dynamited#- Hard rock walls that cannot be destroyed##= EMMETS =#Emmets are intelligent and will automatically find tasks to do if there are any.#- They can drill walls and clear rubble if you mark the objectives#- They can carry materials to the refinery, and from the refinery to the sender#- They can AVOID DANGER in a reasonable measure##= END OF MISSION =#The objective of the mission is to be PROFITABLE to your company.#The gains will mostly be determined by the precious minerals you find.##Good luck !
+savingGame=Saving the game...
+scrollHelp=(Use the mouse wheel to scroll)
+noRankingOffline=If the company was created while offline, you will not be able to see your ranking.
+offlineCannotConnect=Log-in failed.#Check your token and try again.
+successfulConnection=[%s] identifié avec succès.
+serverOffline=Could not contact the server.
+
+[CHOOSE_STOCK]
+resource=Resource
+amount=Amount
+lastMarketValue=Last known value: 
+removeFromStock=Remove from stock: 
+currentStorage=Station storage capacity
+pleaseFree=Storage overloaded.#Please make place to continue.
+drop=Drop
+scrapBonusText=A scrap-dealing company gave you %s in exchange for your unvaluable resources.
+
+[EMMETSUNITED]
+upgrade=Upgrade
+successfulConnection=Successfully connected to EmmetsUnited
+connectingToEU=Connecting to Emmets United...
+gotoMarket=Access the market
+products=See our products
+recruit=Recruit!
+devise=The powercore of spatial colonization
+browser=RackNet(c) metanet explorer
+offlineNoNews=Could not reach the online platform.#No news could be fetched.
+sellRes=Sell: 
+buyingThisProduct=Buying this product will save you :
+buyThisProduct=Buy
+already=Already %s in stock
+upgradeNeeds=Upgrading your station to level %s will make the following changes :##Storage capacity:#%skg => %skg#Crew capacity:#%s => %s
+previousOwner=Previously working at
+trainFirst=This will train the FIRST emmet of your crew (top of the list).
+trainEmmet=Train emmet
+willBeTrainedTo=The following emmet will become:
+
+[STATION_WIZARD]
+wizard=Company creation wizard
+welcome=Welcome to the company creation wizard
+companyInformation=Company information
+welcomeText=So you wanna be an entrepreneur ? #Sounds fair.##Follow those simple steps to set up your company and start your business.#
+colorCompanytext=Give an unique look to your company with a strong, defining color.
+nameCompanyText=Please specify a name and a motto for your company
+companyName=Company name
+companyColor=Pick a color
+color=Color
+motto=Motto
+resume=Details check-up
+founder=Founder
+resumeText=Check the informations are correct, then press OK to continue.
+loadingTip1=Registering the trademark...
+loadingTip2=Recruiting emmets...
+loadingTip3=Getting sponsors...
+companyCreatedSuccessfully=Your company is born!
+firstTime=This is my first time playing Emmets
+changeName=Change name...
+
+[STATION_HOME]
+creationDate=Creation date
+crewSize=Crew size
+leaderboardPosition=Company ranking
+capital=Funds
+connectEmmetsUnited=Connect Emmets United
+manageStocks=Manage stocks
+manageCrew=Manage crew
+dropStation=Liquidate company
+explore=Explore
+stationHistory=History
+stationRanking=Online ranking
+back=Back
+newCompany=Create a company
+createCompany=Create company
+createCompanyButtonNotice=Click the button below to launch the company creation wizard
+dropCompanyTitle=Drop company
+dropCompanyText=/!\ WARNING /!\ #This will delete the existing station, crew, stocks, and liquidate the company.#This action cannot be undone.###Press OK to continue.#Press CANCEL to return.
+stationLevel=Level
+
+
+[MANAGE_CREW]
+name=Name
+health=Status
+moveUp=Move up
+moveDown=Move down
+heal=Restore
+fire=Dismiss
+rename=Change name
+currentCrewsize=Crew capacity
+enterNewName=Enter a new name for %s:
+
+[LORE]
+fuel=%s#Used by a power station to provide energy to other buildings
+metal=%s#Used to build advanced buildings and structures
+junk=%s#Used to build pathways and standard structures
+
+adiamond=Each adamante ore conceals an unbreakable stone, made of a metal that melted in the planet's core itself. This kernel gives special properties to this material : in the dark, adamante nuggets show a reddish glow.#Primitive populations used to believe those cores contained mystic creatures, dragons or salamanders, ready to hatch.#As of today, this legend is nothing more than a spooky story a few emmets like to share during a break.
+
+palladine=Palladine, once refined, can be treated and transformed into a liquid that blends with the blood of any living being. Once in contact with the palladine fluid, the organism mutates and develops superhuman capabilities.#The huge downside of this application is the addiction that comes with it : most people being unable to recover from even the slightest dose, palladine consumption is now heavily regulated and reserved for the army.
+
+gauld=Unoptine is composed of millions of microscopic long crystals that give this material a shiny aspect. Like asbestos, unoptine used to be considered as a "miraculous" material. Its high tensile strength and heat resistance made unoptine widely used in various structures, as an insulation and/or construction material. Pure unoptine crystals being hard to find, the material was widely synthetised for common use.#Decades after its first synthetisation, the harmful health effects of unoptine were unveiled. Companies were created to handle the complete removal and destruction of all synthetised unoptine.#Pure unoptine however, was never shown to have any significant health impact : and therefore, is still used today for various purposes. 
+
+kebelt=Kebelt takes its name from the first geologist who proved its existence, Ströma Kebelt. This famous scientist also gave her name to the court case that occured shortly after : the discovery was contested by another geologist, Andrio Deluel, claiming he discovered the material three years earlier. The case dragged on for a decade because of the lack of decisive proof.#Eventually, Deluel was considered the original discoverer of this element. But it was too late : the name "Kebelt" had been widely used for years. To this day, Deluel still militates for Kebelt to be called by its original name, "Deluelite".
+
+terranniuxe="There has been no war before Terraniuxe : compared to it, any weapon of the past is merely a stick" said a famous commander.#Terraniuxe is used in state-of-the-art military equipment and sub-spatial long-range weapons. This material has mainly been extracted from the Tarydium mines for the past century. Recent reports revealed those exploitation sites were drying out, and those rumor created a fear of shortage which boosted Terraniuxe's prices.#It can be extracted from specific underground veins, but those only appear in precise geological conditions. 
+
+copperine=Copperine has been mistaken for Copper for a very long time. The difference between the two materials was only discovered when off-world building companies tried to draw copper/ine lines in a rarefied atmosphere.#When exposed to such environment, copperine oxydizes in a special way : the surface covers itself in grey spikes. Those spikes, once formed, can be milled and treated to obtain another material, Copperade, which thermal conductivity is beyond record.#In industrial production, spikes are harvested in gigantic farms were multiple layers of metallic copperine are disposed on every field.
+
+silverade=Naderinium is a chemical element found in low-depth rock formations. Called “Cloud Stone” by indigenous populations, it was believed to be the compound allowing clouds to fly. Naderinium is an incredibly light and flexible metal. Too fragile to be used as is, it is often melted and used to create alloys with heavier metals such as gold in order to create a robust yet usable material. Today, Naderinium is used in engineering and mechanics to create lighter vehicles capable of travelling at much higher speeds. 
+
+oxygenite=Also known by its other name "Light sulfur", oxygenite is a natural alloy consisting of sulfur and solid oxygen. At low enough temperature and high enough pressure, oxygen solidifies around pure sulfur and assimilates it over an estimated time of seven months.#The resulting alloy bears the sky-blue color of solid oxygen dotted on the edge with yellowy sparks. Oxygenite is a miner’s favorite as it emits a small blue light when shaken.#However, it was discovered that the heat produced by these emissions could light up gas pockets. To prevent any potential injuries, the Emmets Consortium decided to ban the use of oxygenite as a handheld torch.
+
+sulfur=Heavy sulfur is a highly toxic chemical found in large quantity near small planets' core. Bearing a reddish orange color, it can cause skin diseases as well as respiratory infections when in contact with living organisms. Despise its high melting point, Heavy Sulfur has been observed to spontaneously combust when exposed to water. It produces a blue flame reminiscent of the one created by the combustion of sulfur, hence its name, burning at incredible temperatures. Still used as fuel is some of the deepest parts of space, its potency was once one of the strongest available, making it a reliable and powerful source of energy. It has been replaced over time with other fuels, less dangerous and easier to handle.
+
+platene=Rhoderinium has been discovered fairly recently. As it stands, scientists have yet to explain its origins and the extents of its use. Named after the star cluster of Rhode, where it was observed for the first time, it is supposed that Rhoderinium takes its unusual purple color from prolonged exposure to cosmic rays. Mistaken for amethyst for a long time, it peeked the scientific community's interest when an asteroid composed at 75% of pure Rhoderinium melted after entering a planet's atmosphere.#To some, it appears Rhoderinium cannot maintain its stability when in contact with oxygen. However, this claim is still highly debated among the scientific community.
+
+object_building_uplinker=The hypersonic technology allows for long-distance emmet transporation, but cannot teleport heavy materials or inert resources.
+object_building_stocker=When stored, the materials are immediatly transferred to the surface station using teleportation by low-frequency radio waves.#Such technology can only carry inert materials, but allows for transportation of heavy loads.
+object_building_refinery=Laser cutters melt and slice the material simultaneously, making the refining process cheap and quick.
+object_building_predeployed_battery=Cannot be produced : only bought.
+object_building_powerplant=The power supply depends on the amount of fuel rods currently stored. Those fuel rods produce energy for a unlimited time, but can't be reused from one exploration to another.
+object_building_stabilizer=Filtrates oxygen from near water and diffuses it in the cave to control pressure loss.
+
+
+[INGAME]
+exitCave=If you exit the cave now :##- All deployed emmets will be safely teleported back to the station.#- All deployed buildings will be lost.#- Stocked resources will be kept##Press [Confirm] to exit the cave.
+unsavedData=Your station is saved automatically each time you conclude an exploration.#If you quit now, all unsaved data will be lost.##Are you sure you want to quit ?
+
+[MAIN_MENU]
+0=Play
+1=Options
+2=History
+3=Credits
+4=Quit
+credits=Credits
+5=Help
+6=Resume
+7=Exit the cave
+
+[LOADER]
+loading=Loading
+
+[BIOS]
+demoMode=Demo mode
+demoMode_description=Demo mode can be used to demonstrate the game. It disables online functionality and removes the Exit button. The player also starts with extra money.
+softDebug=Debug mode
+softDebug_description=Debug mode enables some debug features to the game, like the debug menu. They can be enabled or disabled using SPACE+F3. Online functionality is disabled.
+enableLogging=Enable logging
+enableLogging_description=Logging to disk will slowdown the game, but will allow access to the game logs. They can be found in the savegame folder. Online functionality is disabled.
+disableCrypt=Disable save encryption
+disableCrypt_description=Disables save encryption to allow user editing of the save files. Online functionality is disabled.
+saveExit=Save and exit
+discardExit=Discard changes and exit
+0=Disabled
+1=Enabled
+header=RackNet Gaming System v1.00PG#Emmets Setup utility
+footer=<>^v:Move   Enter:Select/Change   ESC:Exit
+
+[CREDITS]
+creditsList=RACKNET GAMES(c) 2018#Rackover (Lead programmer / designer)#Valentin "Barticau" (Game artist)#Gaétan "Gaéris" (Wall tiles coder & environment artist)##Other contributions#Monica Dinculescu (DoCoMo mood icons)#Julie Jeanvoine (Graphist)#Antoine "Konn" (Lore contribution)#D.W. O'Boyle (Scripts)##Testing#Etienne "Vale"#Martin "Ferith"#Tristan "Upsilon"#Dylan "Spaace"#Thomas "Aerios"#"Disko"#"Arthuriel"#"bluzi"#"M2Paint"#"DarkianMaker"##Special thanks to#Guys from GameMaker forums#Data Design Interactive#Martin "Ferith"#Archi "Grenouille"#Tony Popovitch#Hits Playtime 2018 team (Simon Albou - Pierre Corbinais - Camille Lisoir - Jonathan Giroux), and all the other folks I've met at HP2018.
