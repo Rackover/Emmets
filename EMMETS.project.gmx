@@ -317,12 +317,12 @@
       <sprite>sprites\sprite_bg_dirt</sprite>
       <sprites name="shader">
         <sprite>sprites\RFX2dith_spr</sprite>
-        <sprite>sprites\RFX2x2dith_spr</sprite>
         <sprite>sprites\RFX4x4dith_spr</sprite>
-        <sprite>sprites\RFXbayerdith_spr</sprite>
+        <sprite>sprites\RFX2x2dith_spr</sprite>
         <sprite>sprites\RFXhordith_spr</sprite>
         <sprite>sprites\RFXnoisydith_spr</sprite>
         <sprite>sprites\RFXslashdith_spr</sprite>
+        <sprite>sprites\RFXbayerdith_spr</sprite>
         <sprite>sprites\RFXslddith_spr</sprite>
         <sprite>sprites\RFXvertdith_spr</sprite>
         <sprite>sprites\RFXverthordith_spr</sprite>
@@ -642,9 +642,6 @@
       <script>scripts\rc4.gml</script>
       <script>scripts\url64_encode.gml</script>
       <script>scripts\url64_decode.gml</script>
-      <script>scripts\netEncrypt.gml</script>
-      <script>scripts\netDecrypt.gml</script>
-      <script>scripts\onlineQuery.gml</script>
       <script>scripts\onlineInterpretResults.gml</script>
       <script>scripts\regularizeCrew.gml</script>
       <script>scripts\offlineSwitch.gml</script>
@@ -807,11 +804,6 @@
       <script>scripts\showHelp.gml</script>
       <script>scripts\hoverColor.gml</script>
       <script>scripts\getDisabledTip.gml</script>
-      <scripts name="shader">
-        <script>scripts\shader_set_rfx.gml</script>
-        <script>scripts\RFX_init.gml</script>
-        <script>scripts\RFX_set_coldepth.gml</script>
-      </scripts>
       <script>scripts\createMenu.gml</script>
       <script>scripts\showPriorities.gml</script>
       <script>scripts\showPlayerRename.gml</script>
@@ -927,6 +919,11 @@
       <script>scripts\clearWallMarkers.gml</script>
       <script>scripts\damageIntegrity.gml</script>
     </scripts>
+    <script>scripts\onlineQuery.gml</script>
+    <script>scripts\RFX_init.gml</script>
+    <script>scripts\RFX_set_coldepth.gml</script>
+    <script>scripts\netDecrypt.gml</script>
+    <script>scripts\shader_set_rfx.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shader_grayscale.shader</shader>
@@ -1121,7 +1118,7 @@
   <constants number="238">
     <constant name="VERSION">153</constant>
     <constant name="DEMO_TIMEOUT">300</constant>
-    <constant name="DEBUG">0</constant>
+    <constant name="DEBUG">1</constant>
     <constant name="DEBUG_MAPS">0</constant>
     <constant name="OFFLINE_EMMETS">2</constant>
     <constant name="MAX_YARDS">5</constant>
