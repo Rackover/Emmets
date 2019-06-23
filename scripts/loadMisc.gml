@@ -35,10 +35,11 @@ else{
 }
 
 // Last cave
-if (!is_undefined(misc[? "lastCave"]) && misc[? "lastCave"] != noone){
+var lastCave = misc[? "lastCave"];
+if (isValidCave(lastCave)){
     // Changed planet recently, last cave should be overriden
-    log("Set last cave from savegame, from "+json_encode(object_game.lastCave)+" to "+json_encode(misc[? "lastCave"]));
-    object_game.lastCave = misc[? "lastCave"];
+    log("Set last cave from savegame, from "+json_encode(object_game.lastCave)+" to "+json_encode(lastCave));
+    object_game.lastCave = lastCave;
     misc[? "lastCave"] = noone;
     object_game.currentLevel = 1;
 }
