@@ -1,5 +1,10 @@
 # Emmets
 GameMakerStudio CMS and rogue-like
 
-The project may not run "as-is" because the online code will be missing. Simply create a dummy "onlineQuery" script with nothing in it, and things should flow. 
-You'll have to run it in offline mode though.
+![img](https://img.itch.zone/aW1hZ2UvMjY4Mjc1LzEyOTQwNTIuanBn/original/LkXuR9.jpg)
+
+![img](https://img.itch.zone/aW1hZ2UvMjY4Mjc1LzEyOTQ0NTkuanBn/original/xQBnCw.jpg)
+
+![img](https://img.itch.zone/aW1hZ2UvMjY4Mjc1LzEyOTQ0NjAuanBn/original/vddmGa.jpg)
+
+![img](https://img.itch.zone/aW1hZ2UvMjY4Mjc1LzEyOTQ0NTguanBn/original/fgi%2FyW.jpg)
