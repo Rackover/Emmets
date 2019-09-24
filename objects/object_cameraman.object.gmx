@@ -100,6 +100,10 @@ if (!object_game.paused &amp;&amp; object_game.inGame){
         centered = true;
      }
      
+     if (global.i[I_CENTER_CAMERA] &amp;&amp; instance_exists(object_building_parent)){
+        centerCameraOn(object_building_parent); // Center camera on any building
+     }
+     
      if (screenShakeAmount &gt; 0){
         screenShakeAmount -= 1/room_speed;
         var dir = irandom(360);

@@ -1224,6 +1224,7 @@
     <constant name="I_Y">2</constant>
     <constant name="I_BUILDINGS_RELEASED">22</constant>
     <constant name="I_BUILDINGS">21</constant>
+    <constant name="I_CENTER_CAMERA">30</constant>
     <constant name="I_SELECT_RELEASED">29</constant>
     <constant name="I_ANCHOR_CAMERA_PRESSED">28</constant>
     <constant name="I_SELECT_HELD">27</constant>

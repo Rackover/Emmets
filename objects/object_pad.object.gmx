@@ -226,6 +226,7 @@ key_map[I_CONFIRM] = vk_enter;
 key_map[I_PAUSE] = vk_escape;
 key_map[I_SCROLL_UP] = noone;
 key_map[I_SCROLL_DOWN] = noone;
+key_map[I_CENTER_CAMERA] = ord('C');
 
 // Hotkeys
 key_map[I_1] = ord('1');
@@ -248,6 +249,7 @@ xpad_map[I_RIGHT] = gp_padr;
 xpad_map[I_PAUSE] = gp_start;
 xpad_map[I_SCROLL_UP] = gp_padu;
 xpad_map[I_SCROLL_DOWN] = gp_padd;
+xpad_map[I_CENTER_CAMERA] = gp_stickr;
 
 //// INPUT CHECKING
 
@@ -292,6 +294,7 @@ key[I_CONFIRM] = keyboard_check_pressed(key_map[I_CONFIRM]);
 key[I_PAUSE] = keyboard_check_pressed(key_map[I_PAUSE]) or (gamepad_is_connected(0) &amp;&amp; gamepad_button_check_pressed(0, xpad_map[I_PAUSE]));
 key[I_SCROLL_DOWN] = mouse_wheel_down() or (gamepad_is_connected(0) &amp;&amp; gamepad_button_check(0, xpad_map[I_SCROLL_DOWN]));
 key[I_SCROLL_UP] = mouse_wheel_up() or (gamepad_is_connected(0) &amp;&amp; gamepad_button_check(0, xpad_map[I_SCROLL_UP]));
+key[I_CENTER_CAMERA] = keyboard_check(key_map[I_CENTER_CAMERA]) or (gamepad_is_connected(0) &amp;&amp; gamepad_button_check(0, xpad_map[I_CENTER_CAMERA]));
 
 // Hotkeys
 key[I_1] = keyboard_check_pressed(key_map[I_1]);
