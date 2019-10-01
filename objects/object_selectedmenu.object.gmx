@@ -530,8 +530,8 @@ if (preset == PRESET_BUILDINGS){
         
         draw_set_color(c_white);
         
-        draw_text(x+mean(margin+iconSize+margin+headBandPadding, width-margin-headBandPadding),
-                  y+headBandHeight-margin-headBandPadding-powerGaugeHeight/2,
+        draw_text(x+floormean(margin+iconSize+margin+headBandPadding, width-margin-headBandPadding),
+                  y+floor(headBandHeight-margin-headBandPadding-powerGaugeHeight/2),
                   stripAccents(translate("POWER", powerState))
                   );
     //}

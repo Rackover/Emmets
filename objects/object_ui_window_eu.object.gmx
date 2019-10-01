@@ -738,7 +738,7 @@ switch state{
         if (object_game.offlineMode){
             draw_set_valign(fa_top);
             draw_set_halign(fa_left);
-            drawShadowedText(left+textInteriorPadding, hTop+textInteriorPadding, translate("EMMETSUNITED", "offlineNoNews"));
+            drawShadowedText(left+textInteriorPadding, hTop+textInteriorPadding, stripAccents(translate("EMMETSUNITED", "offlineNoNews")));
         }
         else{
             var surf = surface_create(rpLeft - (x+interiorPadding), bottom-hTop-textInteriorPadding*2);
