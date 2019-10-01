@@ -1,4 +1,6 @@
-onlineQuery*
-netEncrypt*
-netDecrypt*
-*RFX*
+scripts/onlineQuery**
+scripts/netEncrypt**
+scripts/netDecrypt**
+sprites/images/RFX**
+sprites/RFX**
+scripts/shader_set_rfx.gml
