@@ -25,6 +25,14 @@ if (company[? "version"] != version){
 }
              
 if (!is_undefined(object_station.company[? "memories"])){
+    var mem = object_station.company[? "memories"];
+    for (var i = 0; i<ds_list_size(mem[? "history"]);  i++){
+        var history = mem[? "history"];
+        if (history[|i] == object_game.lastCave){
+            log("Last cave was part of memories history! Replaced it by noone in the history before destroying memories, to avoid accidental deletion");
+            history[|i] = noone;
+        }
+    }
     log("Destroyed memories ["+string(object_station.company[? "memories"])+"] "+json_encode(object_station.company[?"memories"]));
     ds_map_logdestroy(object_station.company[? "memories"]);
     object_station.company[? "memories"] = noone;
